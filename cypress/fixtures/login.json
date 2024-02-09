@@ -1,0 +1,14 @@
+{
+    "usernameField": "",
+    "passwordField": "",
+    "validUsername": "Ogechinagu",
+    "validPassword": "Password12345@",
+    "otp": "777777",
+    "secQuestion": "#questionId",
+    "secAnswerField": "#answer",
+    "secAnswer": "Blue",
+    "loginButton": ".css-p2yaua",
+    "invalidUsername": "Ogechinagu2345",
+    "invalidPassword": "password12345######@"
+  }
+  

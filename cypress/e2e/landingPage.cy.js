@@ -3,11 +3,9 @@ describe('Homepage Suite', function(){
         // root-level hook
         // runs before every test block
         cy.visit('/')
-      })
-    it('Launch url', function(){
         cy.title().should("include", "AltBank - The Alternative Bank")
-        
-    })
+      })
+    
 
     it('Contact us', ()=>{
         cy.get('.css-1plk7cb > :nth-child(2)').should('have.text', "Contact Us").should('be.visible').click()
